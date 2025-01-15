@@ -19,7 +19,7 @@ let countdownActive = false;
 let countdownAccumulator = 0;
 
 function preload() {
-    this.load.image('background', 'assets/LIKE_AND_SUBSCRIBE_TO_MY_YOUTUBE_FOLLOW_MY_TWITCH.png');
+    this.load.image('background', 'assets/Untitled_design.png');
 }
 
 function create() {
