@@ -1,8 +1,8 @@
 // Create a new Phaser game instance
 const config = {
     type: Phaser.AUTO,
-    width: 2560,
-    height: 1440,
+    width: 1920,
+    height: 1080,
     scene: {
         preload,
         create,
@@ -23,13 +23,13 @@ function preload() {
 }
 
 function create() {
-    const bg = this.add.image(1280, 720, 'background');
+    const bg = this.add.image(960, 540, 'background');
     bg.setOrigin(0.5);
 
     bg.setDisplaySize(this.cameras.main.width, this.cameras.main.height);
 
     // Display timer
-    timerText = this.add.text(1280, 720, formatTime(timer), {
+    timerText = this.add.text(960, 540, formatTime(timer), {
         fontSize: '216px',
         color: '#100c08',
         fontFamily: 'Impact',
