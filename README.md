@@ -1,6 +1,6 @@
 # Countdown.github.io
 
-##Controls:
+## Controls:
 Up Arrow to add time (30s)<br/>
 Down arrow to remove time (30s)<br/>
 Right arrow to reset the clock (back to 5m)<br/>
